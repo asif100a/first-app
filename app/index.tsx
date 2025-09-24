@@ -14,9 +14,9 @@ const Home = () => {
       >
         <Text style={styles.title}>New Coffee Shop</Text>
 
-        <Link href={"/explore"} style={{ marginHorizontal: "auto" }} asChild>
+        <Link href={"/menu"} style={{ marginHorizontal: "auto" }} asChild>
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Explore</Text>
+            <Text style={styles.buttonText}>Menu</Text>
           </Pressable>
         </Link>
 
