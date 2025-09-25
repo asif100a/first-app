@@ -63,10 +63,12 @@ const styles = StyleSheet.create({
   },
   button: {
     height: 60,
+    width: 150,
     borderRadius: 20,
     justifyContent: 'center',
     backgroundColor: 'rgba(0,0,0,0.75)',
-    padding: 6
+    padding: 6,
+    marginBottom: 30
   },
   buttonText: {
     color: "white",
